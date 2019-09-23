@@ -1,0 +1,22 @@
+{
+  "private": false,
+  "name": "v-show-on",
+  "version": "0.0.1",
+  "description": "v-if for predetermined and customizable breakpoints, ala Bootstrap",
+  "author": "Johnson Zhang",
+  "license": "ISC",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "vue serve VShowOn.vue",
+    "build": "bili --name index --plugin vue --vue.css false",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "devDependencies": {
+    "bili": "4.8.1",
+    "rollup-plugin-vue": "5.0.1",
+    "vue-template-compiler": "2.6.10"
+  }
+}
